@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  /* background-color: darkslategrey; */
+  color: white;
+  overflow: overlay;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  display: none;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: rgba(163, 163, 163, 0.4);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(163, 163, 163, 0.7);
+  opacity: 1;
+}
+.background{
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  /* background-image: linear-gradient(to bottom right, #1a522a, #112711); */
+  background-image: linear-gradient(to bottom right, #4c6252, #243224);
+  z-index: -1000000;
+}
+.highlight {
+  color: rgb(217, 216, 216);
+  font-weight: bold;
+  font-style: italic;
+}
+.right {
+  text-align: right;
+}
+.page-container {
+  padding: 5rem 7rem;
+  max-width: 1200px;
+}
+header {
+  height: calc(100vh - 5rem);
+  box-sizing: border-box;
+  min-height: 600px;
+  position: relative;
+}
+.header-main {
+  margin-top: 10vh;
+}
+.header-footer {
+  position: absolute;
+  bottom: 5rem;
+  padding-right: inherit;
+}
+.section {
+  margin-top: 4rem;
+}
+.section-title {
+  text-transform: uppercase;
+}
+.sub-section {
+  margin-top: .5em;
+  margin-bottom: 1em;
+}
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: end; */
+  list-style-type: none;
+  padding: 0;
+}
+.skills-list li {
+  /* padding-left: 1.5em; */
+  padding-right: 1.5em;
+  width: 180px;
+  margin-top: 1.5rem;
+}
+.skills-list :last-child {
+  padding-right: 0;
+}
+.skill-element {
+  display: flex;
+  flex-direction: column;
+}
+.skill-title {
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+.free-text {
+  margin: 0.5rem 0;
+}
+ul {
+  list-style-type: decimal;
+  padding-left: 1em;
+}
+ul li {
+  margin-top: .5rem;
+}
+.project-title {
+  margin-top: .5rem;
+  font-style: italic;
+  font-size: smaller;
+  font-weight: bolder;
+}
+footer {
+  margin-top: 4rem;
+}
+a {
+  color: currentColor;
+}
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+  margin-top: .5rem;
+}
